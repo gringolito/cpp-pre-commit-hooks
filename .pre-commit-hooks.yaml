@@ -1,0 +1,6 @@
+-   id: check-using-namespace-directive
+    name: Check for `using namespace` directive
+    description: Forbids the usage of the `using namespace` directive
+    entry: check-using-namespace-directive
+    language: python
+    files: \.(c|cc|cxx|cpp|h|hh|hpp|hxx)$
