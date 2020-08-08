@@ -1,0 +1,28 @@
+[MASTER]
+jobs=0
+persistent=no
+suggestion-mode=yes
+
+[MESSAGES CONTROL]
+
+disable=R0903, # don't care about number of methods/arguments/variables
+        R0913, # don't care about number of methods/arguments/variables
+        R0914, # don't care about number of methods/arguments/variables
+        W0511, # allow TODOs on the code
+        C0330, # black handles format, indentation and style
+        C0103, # black handles format, indentation and style
+        C0114, # disable modules documentation
+
+[REPORTS]
+
+score=no
+
+[REFACTORING]
+
+good-names=i,
+           j,
+           k,
+           f,
+           ex,
+           Run,
+           _
