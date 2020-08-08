@@ -1,0 +1,17 @@
+#ifndef CPP_PRE_COMMIT_HOOKS_TESTS_RESOURCES_USING_NAMESPACE_DIRECTIVE_OK_USING_DIRECTIVE_LOCAL_H_
+#define CPP_PRE_COMMIT_HOOKS_TESTS_RESOURCES_USING_NAMESPACE_DIRECTIVE_OK_USING_DIRECTIVE_LOCAL_H_
+
+#include <map>
+#include <string>
+
+namespace foo {
+
+using bar = "bar";
+
+struct Qux {
+    std::map<int, std::string> foo;
+};
+
+} // namespace foo
+
+#endif /* CPP_PRE_COMMIT_HOOKS_TESTS_RESOURCES_USING_NAMESPACE_DIRECTIVE_OK_USING_DIRECTIVE_LOCAL_H_ */
