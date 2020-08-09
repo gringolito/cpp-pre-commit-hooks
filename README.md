@@ -1,5 +1,7 @@
 # cpp-pre-commit-hooks
-Useful C++ hooks for pre-commit based on Google's C++ Style Guide
+C++ hooks for pre-commit based on Google's C++ Style Guide
+
+[![Actions Status](https://github.com/gringolito/cpp-pre-commit-hooks/workflows/ci/badge.svg)](https://github.com/gringolito/cpp-pre-commit-hooks/actions)
 
 ## Usage
 
